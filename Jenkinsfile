@@ -12,6 +12,7 @@ pipeline {
       steps {
         echo 'Running build steps...'
         sh 'echo "Build successful!"'
+        echo 'Application built'
       }
     }
 
